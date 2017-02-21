@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Capital Contable"
+        android:layout_width="305.0dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:layout_marginRight="83.5dp"
+        android:layout_marginLeft="27.0dp" />
+    <TextView
+        android:text="Ingresos Colombia"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="80dp"
+        android:gravity="center" />
+    <EditText
+        android:text="0"
+        android:id="@+id/txtCapitalM"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_alignParentRight="true"
+        android:gravity="center" />
+    <TextView
+        android:text="Egresos Colombia"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginRight="80dp"
+        android:gravity="center" />
+    <EditText
+        android:text="0"
+        android:id="@+id/txtCapitalC"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_alignParentRight="true"
+        android:gravity="center" />
+    <ImageView
+        android:id="@+id/imageCol"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="384dp"
+        android:layout_marginRight="10dp" />
+    <ImageView
+        android:id="@+id/imageMex"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="230dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="384dp" />
+    <Button
+        android:text="Sair"
+        android:id="@+id/btnsair"
+        android:background="#FFFF1111"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="250dp"
+        android:layout_alignParentRight="true"
+        android:gravity="center" />
+</RelativeLayout>
